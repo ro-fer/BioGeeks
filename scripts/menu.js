@@ -5,11 +5,13 @@ async function cargarContenidoExtra() {
             throw new Error("Failed to fetch categorias.json");
         }
         const data = await response.json();
+        console.log("Datos cargados:", data);  // Agregar este log
         agregarContenidoExtra(data);
     } catch (error) {
         console.error('Error:', error);
     }
 }
+
 
 function agregarContenidoExtra(data) {
     const dropdown = document.getElementById('dropdown');
@@ -43,11 +45,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const dropdown = document.getElementById('dropdown');
 
     menuIcon.addEventListener('click', function() {
+        console.log("Menú icon clicado");  // Agregar este log
         navLinks.classList.toggle('show');
     });
 
     recursosBtn.addEventListener('click', function(event) {
-        event.stopPropagation(); // Evita que el clic se propague y cierre el menú inmediatamente
+        event.stopPropagation();
+        console.log("Botón Recursos clicado");  // Agregar este log
         dropdown.classList.toggle('show-dropdown');
     });
 
@@ -56,7 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     dropdown.addEventListener('click', function(event) {
-        event.stopPropagation(); // Evita que el menú se cierre cuando se hace clic dentro de él
+        event.stopPropagation();
     });
 });
-
