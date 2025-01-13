@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Matemática",
+        "link" :"./pages/matematica.html",
+        "descripcion": "Recursos de matematica.", 
+        "img":"https://cdn-icons-png.flaticon.com/512/1605/1605815.png"
+
+    },
+    {
+        "nombre": "Física",
+        "link" :"./pages/fisica.html",
+        "descripcion": "Recursos de física.", 
+        "img":"https://i.pinimg.com/originals/eb/84/97/eb849705a08ecff3963536c5fbf0d0a9.png"
+
+    },
+    {
+        "nombre": "Inteligencia Artificial",
+        "link" :"./pages/inteligencia-artificial.html",
+        "descripcion": "Recursos de Inteligencia Artificial.", 
+        "img":"https://cdn-icons-png.flaticon.com/512/11103/11103355.png"
+
+    },
+    {
+        "nombre": "Cursos",
+        "link" :"./pages/cursos.html",
+        "descripcion": "Recursos sobre Cursos.", 
+        "img":"https://cdn-icons-png.flaticon.com/512/1323/1323490.png"
+
+    },
+    {
+        "nombre": "Libros",
+        "link" :"./pages/libros.html",
+        "descripcion": "Recursos sobre Libros.", 
+        "img":"https://images.vexels.com/content/139752/preview/books-icon-4f0a54.png"
+
+    }
+]

@@ -1,0 +1,256 @@
+.recursos-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
+    justify-content: space-around;
+    justify-items: stretch;
+}
+
+.recurso {
+    border: 1px solid black;
+    margin: 5px;
+    padding-left: 1%;
+    text-align: center;
+    font-weight: bold;
+    height: 250px;
+    width: 200px;
+}
+
+.recurso-title {
+    background-color: rgba(151, 39, 142, 0.7); /* Fondo negro translúcido */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.recurso-descripcion {
+    padding: 5%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    height: 75%;
+    font-size: 80%;
+    text-align: center;
+    font-weight: normal;
+    align-items: auto;
+    justify-content: space-evenly;
+}
+.recurso-descripcion p {
+    padding: 3%;
+}
+
+.recurso-boton {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    font-size: 145%;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(218, 118, 180);
+    border-radius: 5px;
+}
+
+.recurso-boton a {
+    color: white;
+}
+
+.categorias {
+    display: flex; /* Usa Flexbox para las categorías */
+    flex-wrap: wrap; /* Permitir que los botones se ajusten automáticamente a la línea */
+    
+    justify-content: center; /* Alinea al centro o cámbialo según prefieras (flex-start, space-around, etc.) */
+    padding: 10px; /* Espaciado interno para mayor estética */
+    
+}
+
+.categoria {
+    margin-top: 1%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(133, 103, 133);
+    border-radius: 5px;
+    width: 100%;
+    margin: 1%;
+    color: white;
+}
+
+.categoria a {
+    color: white;
+}
+
+.box-titulo-recurso {
+    background-color: rgb(81, 36, 137);
+}
+
+.titulo-recurso {
+    text-align: center;
+    color: white;
+}
+
+/* Carousel */
+.section-carousel {
+    margin: 50px auto;
+    position: relative;
+    width: 95%;
+}
+.categoria-titulo{
+    background-color: rgba(151, 39, 142, 0.7);
+    padding: 1%;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.car-categoria {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.car-categoria::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Fondo translúcido para contraste */
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+.card-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.car-categoria[data-fondo]::before {
+    background-image: var(--fondo);
+}
+
+.car-categoria:hover::before {
+    opacity: 0.4; /* Aumenta la opacidad al pasar el cursor */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.car-categoria h2, 
+.car-categoria .car-titulo, 
+.car-categoria .car-descri, 
+.car-categoria .car-boton {
+    color: #ffffff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mayor legibilidad */
+}
+
+.car-titulo {
+    font-size: 1.5em;
+}
+
+.track {
+    display: inline-flex;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-container {
+    position: relative;
+    flex: 0 0 auto;
+    width: 260px;
+    height: 270px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgba(214, 178, 224, 0.9); /* Fondo blanco translúcido */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.car-titulo-rec {
+    background-color: rgb(102, 25, 25);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.car-descri {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-cat {
+    align-items: end;
+}
+
+.spacer {
+    flex: 0.3; /* Este div empuja el contenido hacia abajo */
+}
+
+.descripcion-todos {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1em;
+    background-color: rgba(196, 2, 2, 0.575);
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.car-boton {
+    background-color: rgb(107, 3, 3);
+    margin-left: 30%;
+    margin-bottom: 5%;
+    transition: 1.5s;
+}
+
+.car-boton:hover {
+    background-color: rgb(221, 125, 0);
+}
+
+.list {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.item {
+    scroll-snap-align: center;
+}
+
+.content {
+    border-radius: 20px;
+    width: 250px;
+}
+.categoria-boton {
+    background: rgba(156, 112, 168, 0.9);
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 5%; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Mostrar cursor de mano */
+    transition: all 0.3s ease; /* Transición para efectos */
+    margin: 5px; /* Espaciado entre botones */
+}
+
+.categoria-boton:hover {
+    background-color: #b30077; /* Fondo al pasar el ratón */
+    color: #fff; /* Color del texto al pasar el ratón */
+    transform: scale(1.05); /* Efecto de ampliación */
+}
+
+.categoria-boton:active {
+    transform: scale(0.95); /* Efecto al hacer clic */
+}

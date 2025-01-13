@@ -1,0 +1,154 @@
+[
+  {
+    "nombre": "Symbolab",
+    "link": "https://es.symbolab.com/",
+    "descripcion": "Calculadora paso a paso",
+    "categorias": ["Matematica"]
+  },
+  {
+    "nombre": "Diego Melchiori",
+    "link": "https://www.youtube.com/@diegomelchiori1998",
+    "descripcion": "Este es el canal del docente Diego Merchiori, donde tiene subido los vídeos de las clases de pandemia de Matemática - CPU.",
+    "categorias": ["Matematica"]
+  },
+  {
+    "nombre": "Frubox",
+    "link": "http://www.frubox.org/",
+    "descripcion": "Es un banco de apuntes colaborativo entre estudiantes! Hay apuntes, ejercicios, examenes. El objetivo es ir subiendo material actualizado.",
+    "categorias": ["Matematica","Libros","Física"]
+  },
+  {
+    "nombre": "Diego Lamas",
+    "link": "https://www.youtube.com/channel/UCxEX6-03xq2rj0riS3EXdBQ",
+    "descripcion": "Este es el canal del docente Diego Lamas, donde tiene subido los vídeos de las clases de pandemia de Física - CPU",
+    "categorias": ["Física"]
+  },
+  {
+    "nombre": "Luis López - Montenegro",
+    "link": "https://lelopezm.wordpress.com/",
+    "descripcion": "Página web de profesor uis López - Montenegro (Colombiano), tiene material de diferentes materias.",
+    "categorias": ["Matematica","Física","Programación"]
+  },
+  {
+    "nombre": "Apuntes de Majo",
+    "link": "https://losapuntesdemajo.vercel.app/",
+    "descripcion": "Página web  que contiene apuntes sobre Programación. [JavaScript, Python, SQL]",
+    "categorias": ["Programación"]
+  },
+  {
+    "nombre": "Python UNSAM",
+    "link": "https://github.com/python-unsam/Programacion_en_Python_UNSAM",
+    "descripcion": "Curso de programación en Python de la UNSAM.",
+    "categorias": ["Programación","Cursos"]
+  },
+  {
+    "nombre": "Libros Programación",
+    "link": "https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md#ensamblador",
+    "descripcion": "Curso de programación en Python de la UNSAM.",
+    "categorias": ["Programación","Libros"]
+  },
+  {
+    "nombre": "Videos ejs Parciales",
+    "link": "https://drive.google.com/drive/folders/1NT49br0ColmSDnfzGmr-8yfoEfVxbNjx?usp=sharing",
+    "descripcion": "Videos de ejercicios de parciales de Matematica CPU",
+    "categorias": ["Matematica"]
+  },
+  {
+    "nombre": "Videos ejs Parciales",
+    "link": "https://www.youtube.com/playlist?list=PLawnKsGNt0WE8jz2pJF11ju4SVkvGFini",
+    "descripcion": "Videos de ejercicios de parciales de Física CPU",
+    "categorias": ["Física"]
+  },
+  {
+    "nombre": "El traductor de la Ingeniería",
+    "link": "https://www.youtube.com/channel/UCa6V1UVOXN4wDm7RDQDoa6g",
+    "descripcion": "Videos interesantes de varias temáticas que estan relacionadas con la ingeniería.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "MateFacil",
+    "link": "https://www.youtube.com/@MateFacilYT",
+    "descripcion": "Videos de diferentes temas sobre matemática, útil para diversas materias de las carreras de ECyT.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "Algebra para Todos",
+    "link": "https://www.youtube.com/channel/UCJn2HLDDyjyRQqEpOetaKBw",
+    "descripcion": "Videos de diferentes temas sobre matemática (álgebra), útil para diversas materias de las carreras de ECyT.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "Derivando",
+    "link": "https://www.youtube.com/channel/UCH-Z8ya93m7_RD02WsCSZYA",
+    "descripcion": "Videos de diferentes temas sobre matemática (álgebra), útil para diversas materias de las carreras de ECyT.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "Matemáticas profe Alex",
+    "link": "https://www.youtube.com/@MatematicasprofeAlex",
+    "descripcion": "Videos de diferentes temas sobre matemática, útil para diversas materias de las carreras de ECyT.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "Física en segundos",
+    "link": "https://www.youtube.com/@FISICAENSEGUNDOS",
+    "descripcion": "Videos de diferentes temas sobre matemática y física, útil para diversas materias de las carreras de ECyT.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "Química y algo más",
+    "link": "https://www.youtube.com/@quimicayalgomas2200",
+    "descripcion": "Videos de diferentes temáticas, útil para diversas materias de las carreras de ECyT.",
+    "categorias": ["Física","Matematica"]
+  },
+  {
+    "nombre": "Clementina",
+    "link": "https://clementina.org.ar/",
+    "descripcion": "Web con contenidos sobre software libre. Tienen un catalogo colaborativo de webs y herramientas open source.",
+    "categorias": ["Programación"]
+  },
+  {
+    "nombre": "Roadmap.sh",
+    "link": "https://roadmap.sh/",
+    "descripcion": "Web para aprender lenguajes de programación gratuitamente.",
+    "categorias": ["Programación"]
+  },
+  {
+    "nombre": "Chat PDF",
+    "link": "https://www.chatpdf.com",
+    "descripcion": "IA que permite subir archivos pdf y preguntarle cosas sobre el documento.",
+    "categorias": ["I-A"]
+  },
+  {
+    "nombre": "Beautiful.ai",
+    "link": "https://www.beautiful.ai/education",
+    "descripcion": "Web que tiene una IA que crea presentaciones de power point con input o entrenandola con un pdf u otro archivo de texto.",
+    "categorias": ["I-A"]
+  },
+  {
+    "nombre": "Free Code Camp",
+    "link": "https://www.freecodecamp.org/espanol/",
+    "descripcion": "Web para aprender gratis lenguajes de programación.",
+    "categorias": ["I-A"]
+  },
+  {
+    "nombre": "Geeks for Geeks",
+    "link": "https://www.geeksforgeeks.org/",
+    "descripcion": "Web de tutoriales, cursos, noticias, etc, sobre programación.",
+    "categorias": ["Cursos","Programación"]
+  },
+  {
+    "nombre": "Inprogrammer",
+    "link": "https://www.geeksforgeeks.org/",
+    "descripcion": "Web con ebooks, cursos y proyectos de programación.",
+    "categorias": ["Cursos","Programación"]
+  },
+  {
+    "nombre": "Tutoriales de prorgamación ya",
+    "link": "https://www.tutorialesprogramacionya.com/",
+    "descripcion": "Tutoriales sobre programación.",
+    "categorias": ["Cursos","Programación"]
+  }
+]
+
+

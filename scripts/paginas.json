@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Campus",
+        "link" :"https://campusvirtualecyt.unsam.edu.ar/login/index.php",
+        "descripcion": "Plataforma donde se encuentra el material de cursada.", 
+        "img":"https://h5p.org/sites/default/files/moodle-icon-page_0.png"
+
+    },
+    {
+        "nombre": "Siu Guaraní",
+        "link" :"#",
+        "descripcion": "Plataforma para inscripciones.", 
+        "img":"https://documentacion.siu.edu.ar/wiki/images/e/ec/LOGO_SIU.png"
+
+    },
+    {
+        "nombre": "Calendario Académico",
+        "link" :"https://www.unsam.edu.ar/escuelas/ecyt/calendario.php",
+        "descripcion": "Fechas de inscripciones.", 
+        "img":"https://pbs.twimg.com/profile_images/1239982726847107078/jMudIbLl_400x400.jpg"
+
+    },
+    {
+        "nombre": "Página de ECyT",
+        "link" :"https://www.unsam.edu.ar/escuelas/ecyt/",
+        "descripcion": "Se encuentra diferente información sobre la escuela.", 
+        "img":"https://pbs.twimg.com/profile_images/1239982726847107078/jMudIbLl_400x400.jpg"
+
+    },
+    {
+        "nombre": "Página IG de ECyT",
+        "link" :"https://www.instagram.com/ecyt.unsam/",
+        "descripcion": "Se encuentra diferente información sobre la escuela.", 
+        "img":"https://pbs.twimg.com/profile_images/1239982726847107078/jMudIbLl_400x400.jpg"
+
+    },
+    {
+        "nombre": "Página IG de UNSAM",
+        "link" :"https://www.instagram.com/unsamoficial/",
+        "descripcion": "Se encuentra diferente información sobre la universidad.", 
+        "img":"https://upload.wikimedia.org/wikipedia/commons/8/8d/Logo_UNSAM.png"
+
+    }
+]

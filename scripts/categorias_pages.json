@@ -1,0 +1,9 @@
+{
+  "Matematica": "../pages/matematica.html",
+  "Libros": "../pages/libros.html",
+  "Física": "../pages/fisica.html",
+  "Programación": "../pages/programacion.html",
+  "Inteligencia Artificial": "../pages/inteligencia-artificial.html",
+  "Cursos": "../pages/cursos.html",
+  "Todos":"../pages/todos.html"
+}

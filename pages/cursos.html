@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos </title>
+    <link rel="icon" href="../BioGeeks-Logo.svg">
+    <link rel="stylesheet" href="../styles/estilos.css" />
+    <link rel="stylesheet" href="../styles/estilos-recursos.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+          <ul class="nav-links" id="nav-links">
+              <li><a href="../index.html">Inicio</a></li>
+              
+              <li class="recursos" id="recursos">
+                  <button class="dropbtn" id="recursos-btn">
+                      Recursos
+                  </button>
+                  <div class="dropdown" id="dropdown">
+                    <!-- Contenido cargado dinámicamente aquí -->
+                  </div>
+              </li>
+              <li><a href="../index.html#contacto">Contacto</a></li>
+          </ul>
+      </div>
+  </nav>
+    <div class="espaciado"></div>
+    <main>
+        <div class="box-titulo-recurso">
+            <h2 class="titulo-recurso">Recursos sobre Cursos</h2>
+        </div>
+        <section class="recursos-section" id="recursos-container">
+            <!-- Los recursos serán cargados aquí por JavaScript -->
+          </section>
+    </main>
+    
+    <footer>
+      <div>
+          <p>
+              Copyright Todos los derechos reservados:
+              <div>
+                  <a href="./index.html">
+                      <strong class="text-footer">Página Web BioGeeks - 2025</strong>
+                  </a>
+              </div>
+          </p>
+          <div class="git-hub">
+              <p>Diseñado por : <a class="text-footer" href="https://github.com/ro-fer" target="_blank">Roh Fernandez</a></p>
+          </div>
+      </div>
+  </footer>
+    <script src="../scripts/menu_pages.js"></script>
+    <script src="../scripts/cargar-recursos.js"></script>
+  <script>
+    // Llama a la función con la categoría como argumento
+    cargarRecursos('Cursos');
+  </script>
+  <script src="../scripts/menu.js"></script>
+  </body>
+</html>
+

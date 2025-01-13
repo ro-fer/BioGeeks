@@ -1,0 +1,45 @@
+[
+  {
+    "nombre":"Matematica",
+    "link_index":"./pages/matematica.html",
+    "link_page":"../pages/matematica.html",
+    "fondo":"https://i.pinimg.com/564x/4c/55/d2/4c55d28e8547efe29af7b275b9534e9c.jpg"
+  },
+  {
+    "nombre":"Libros",
+    "link_index":"./pages/libros.html",
+    "link_page":"../pages/libros.html",
+    "fondo":"https://i.pinimg.com/564x/be/33/e3/be33e37d67f92f716c5e098cf521aa80.jpg"
+  },
+  {
+    "nombre":"Física",
+    "link_index": "./pages/fisica.html",
+    "link_page": "../pages/fisica.html",
+    "fondo":"https://i.pinimg.com/564x/4c/55/d2/4c55d28e8547efe29af7b275b9534e9c.jpg"
+
+  },
+  {
+    "nombre":"Programación",
+    "link_index":"./pages/programacion.html",
+    "link_page":"../pages/programacion.html",
+    "fondo":"https://i.pinimg.com/564x/c4/cf/42/c4cf4221bf594c2cc1cce8076133f2ff.jpg"
+  },
+  {
+    "nombre":"I-A",
+    "link_index":"./pages/inteligencia-artificial.html",
+    "link_page":"../pages/inteligencia-artificial.html",
+    "fondo":"https://i.pinimg.com/564x/cc/91/67/cc91670bf478bd62daeacc927fe92cd5.jpg"
+  },
+  {
+    "nombre":"Cursos",
+    "link_index":"./pages/cursos.html",
+    "link_page":"../pages/cursos.html",
+    "fondo":"https://i.pinimg.com/564x/dd/20/87/dd2087b1040298f2ff95cf6c8b0e4b48.jpg"
+  },
+  {
+    "nombre":"Todos",
+    "link_index":"./pages/todos.html",
+    "link_page":"../pages/todos.html",
+    "fondo":""
+  }
+]
