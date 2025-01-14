@@ -1,6 +1,6 @@
 async function cargarContenidoExtra() {
     try {
-        const response = await fetch("./categorias.json");
+        const response = await fetch("https://ro-fer.github.io/BioGeeks/scripts/categorias.json");
         if (!response.ok) {
             throw new Error("Failed to fetch categorias.json");
         }
