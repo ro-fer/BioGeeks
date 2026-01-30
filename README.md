@@ -50,8 +50,7 @@ Nada raro. Lo importante está en el contenido 😉
 
 ## 🤝 Sumate a la comunidad
 
-¿Tenés apuntes?  
-¿Un link que te salvó una materia?  
+¿Tenés algun recurso o herramienta?  
 ¿Algo que pensás *“esto le serviría a otrxs”*?
 
 ✨ **Sumalo** ✨  
