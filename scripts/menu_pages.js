@@ -51,7 +51,7 @@ function agregarContenidoExtra(data) {
             if(categoria=='Todos' ){
                 contenidoHTML += '<li class="dropdown-separator"></li>';
             }
-            contenidoHTML += `<li><a class="dropdown-item" href="${data[categoria]}" target="_blank">${categoria}</a></li>`;
+            contenidoHTML += `<li><a class="dropdown-item" href="${data[categoria]}">${categoria}</a></li>`;
         }
     }
     
