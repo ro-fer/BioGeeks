@@ -42,7 +42,7 @@ async function cargarRecursos() {
         <img src="${img}" alt="${nombre}" class="img-pag">
       </div>
       <div class="titulo">
-            <h4><a href="${link}" target="_blank" class="link-pag">${nombre}</a></h4>
+            <h4><a href="${link}" class="link-pag">${nombre}</a></h4>
         </div>
         <div class="descripcion">
             <p>${descripcion}</p>

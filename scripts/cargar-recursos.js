@@ -43,7 +43,7 @@ function createCard(resource, categoriasData) {
   let categoriasHTML = categorias.map(categoria => {
     const categoriaLink = categoriasData[categoria];
     return categoriaLink
-      ? `<div class="categoria"><a href="${categoriaLink}" target="_blank">${categoria}</a></div>`
+      ? `<div class="categoria"><a href="${categoriaLink}" ">${categoria}</a></div>`
       : `<div class="categoria">${categoria}</div>`;
   }).join("");
 
