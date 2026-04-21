@@ -235,3 +235,25 @@ label input:checked + span{ color: #000000; }
   grid-template-columns: repeat(auto-fill, minmax(150px, 250px));
   justify-content: stretch;
 }
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagen img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.nosotras {
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #fff;
+}
