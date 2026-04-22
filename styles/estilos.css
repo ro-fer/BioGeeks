@@ -291,10 +291,7 @@ label input:checked + span{ color: #000000; }
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-.recurso-descripcion
-{
-  background-color: #fff;
-}
+
 #recursos-container {
   display: flex;
   flex-wrap: wrap;
