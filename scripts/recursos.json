@@ -2,153 +2,125 @@
   {
     "nombre": "Symbolab",
     "link": "https://es.symbolab.com/",
-    "descripcion": "Calculadora paso a paso",
-    "categorias": ["Matematica"]
+    "descripcion": "Calculadora paso a paso ideal para entender cómo resolver ejercicios.",
+    "categorias": ["Matematica", "Herramientas"],
+    "recomendado": true
+  },
+  {
+    "nombre": "NotebookLM",
+    "link": "https://notebooklm.google/",
+    "descripcion": "IA para estudiar con tus propios apuntes y PDFs. Podés hacer preguntas y generar resúmenes.",
+    "categorias": ["I-A", "Herramientas"],
+    "recomendado": true
+  },
+  {
+    "nombre": "ChatPDF",
+    "link": "https://www.chatpdf.com",
+    "descripcion": "Permite subir PDFs y hacer preguntas sobre el contenido para entenderlo mejor.",
+    "categorias": ["I-A", "Herramientas"]
   },
   {
     "nombre": "Diego Melchiori",
     "link": "https://www.youtube.com/@diegomelchiori1998",
-    "descripcion": "Este es el canal del docente Diego Merchiori, donde tiene subido los vídeos de las clases de pandemia de Matemática - CPU.",
+    "descripcion": "Clases completas de matemática (CPU), muy útil para seguir la cursada.",
     "categorias": ["Matematica"]
-  },
-  {
-    "nombre": "Frubox",
-    "link": "http://www.frubox.org/",
-    "descripcion": "Es un banco de apuntes colaborativo entre estudiantes! Hay apuntes, ejercicios, examenes. El objetivo es ir subiendo material actualizado.",
-    "categorias": ["Matematica","Libros","Física"]
   },
   {
     "nombre": "Diego Lamas",
     "link": "https://www.youtube.com/channel/UCxEX6-03xq2rj0riS3EXdBQ",
-    "descripcion": "Este es el canal del docente Diego Lamas, donde tiene subido los vídeos de las clases de pandemia de Física - CPU",
+    "descripcion": "Clases de física (CPU), explicadas paso a paso.",
     "categorias": ["Física"]
+  },
+  {
+    "nombre": "Frubox",
+    "link": "http://www.frubox.org/",
+    "descripcion": "Banco colaborativo de apuntes, ejercicios y exámenes.",
+    "categorias": ["Recursos", "Matematica", "Física"],
+    "recomendado": true
   },
   {
     "nombre": "Luis López - Montenegro",
     "link": "https://lelopezm.wordpress.com/",
-    "descripcion": "Página web de profesor uis López - Montenegro (Colombiano), tiene material de diferentes materias.",
-    "categorias": ["Matematica","Física","Programación"]
+    "descripcion": "Material variado de matemática, física y programación.",
+    "categorias": ["Matematica", "Física", "Programación"]
   },
   {
     "nombre": "Apuntes de Majo",
     "link": "https://losapuntesdemajo.vercel.app/",
-    "descripcion": "Página web  que contiene apuntes sobre Programación. [JavaScript, Python, SQL]",
-    "categorias": ["Programación"]
+    "descripcion": "Apuntes claros de programación (JavaScript, Python, SQL).",
+    "categorias": ["Programación", "Recursos"]
   },
   {
     "nombre": "Python UNSAM",
     "link": "https://github.com/python-unsam/Programacion_en_Python_UNSAM",
-    "descripcion": "Curso de programación en Python de la UNSAM.",
-    "categorias": ["Programación","Cursos"]
+    "descripcion": "Curso completo de programación en Python.",
+    "categorias": ["Programación", "Cursos"],
+    "recomendado": true
   },
   {
-    "nombre": "Libros Programación",
-    "link": "https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md#ensamblador",
-    "descripcion": "Curso de programación en Python de la UNSAM.",
-    "categorias": ["Programación","Libros"]
-  },
-  {
-    "nombre": "Videos ejs Parciales",
-    "link": "https://drive.google.com/drive/folders/1NT49br0ColmSDnfzGmr-8yfoEfVxbNjx?usp=sharing",
-    "descripcion": "Videos de ejercicios de parciales de Matematica CPU",
-    "categorias": ["Matematica"]
-  },
-  {
-    "nombre": "Videos ejs Parciales",
-    "link": "https://www.youtube.com/playlist?list=PLawnKsGNt0WE8jz2pJF11ju4SVkvGFini",
-    "descripcion": "Videos de ejercicios de parciales de Física CPU",
-    "categorias": ["Física"]
-  },
-  {
-    "nombre": "El traductor de la Ingeniería",
-    "link": "https://www.youtube.com/channel/UCa6V1UVOXN4wDm7RDQDoa6g",
-    "descripcion": "Videos interesantes de varias temáticas que estan relacionadas con la ingeniería.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "MateFacil",
-    "link": "https://www.youtube.com/@MateFacilYT",
-    "descripcion": "Videos de diferentes temas sobre matemática, útil para diversas materias de las carreras de ECyT.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "Algebra para Todos",
-    "link": "https://www.youtube.com/channel/UCJn2HLDDyjyRQqEpOetaKBw",
-    "descripcion": "Videos de diferentes temas sobre matemática (álgebra), útil para diversas materias de las carreras de ECyT.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "Derivando",
-    "link": "https://www.youtube.com/channel/UCH-Z8ya93m7_RD02WsCSZYA",
-    "descripcion": "Videos de diferentes temas sobre matemática (álgebra), útil para diversas materias de las carreras de ECyT.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "Matemáticas profe Alex",
-    "link": "https://www.youtube.com/@MatematicasprofeAlex",
-    "descripcion": "Videos de diferentes temas sobre matemática, útil para diversas materias de las carreras de ECyT.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "Física en segundos",
-    "link": "https://www.youtube.com/@FISICAENSEGUNDOS",
-    "descripcion": "Videos de diferentes temas sobre matemática y física, útil para diversas materias de las carreras de ECyT.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "Química y algo más",
-    "link": "https://www.youtube.com/@quimicayalgomas2200",
-    "descripcion": "Videos de diferentes temáticas, útil para diversas materias de las carreras de ECyT.",
-    "categorias": ["Física","Matematica"]
-  },
-  {
-    "nombre": "Clementina",
-    "link": "https://clementina.org.ar/",
-    "descripcion": "Web con contenidos sobre software libre. Tienen un catalogo colaborativo de webs y herramientas open source.",
-    "categorias": ["Programación"]
+    "nombre": "FreeCodeCamp",
+    "link": "https://www.freecodecamp.org/espanol/",
+    "descripcion": "Plataforma gratuita para aprender programación desde cero.",
+    "categorias": ["Programación", "Cursos"]
   },
   {
     "nombre": "Roadmap.sh",
     "link": "https://roadmap.sh/",
-    "descripcion": "Web para aprender lenguajes de programación gratuitamente.",
-    "categorias": ["Programación"]
-  },
-  {
-    "nombre": "Chat PDF",
-    "link": "https://www.chatpdf.com",
-    "descripcion": "IA que permite subir archivos pdf y preguntarle cosas sobre el documento.",
-    "categorias": ["I-A"]
-  },
-  {
-    "nombre": "Beautiful.ai",
-    "link": "https://www.beautiful.ai/education",
-    "descripcion": "Web que tiene una IA que crea presentaciones de power point con input o entrenandola con un pdf u otro archivo de texto.",
-    "categorias": ["I-A"]
-  },
-  {
-    "nombre": "Free Code Camp",
-    "link": "https://www.freecodecamp.org/espanol/",
-    "descripcion": "Web para aprender gratis lenguajes de programación.",
-    "categorias": ["I-A"]
+    "descripcion": "Guías visuales para aprender distintos caminos en programación.",
+    "categorias": ["Programación", "Herramientas"]
   },
   {
     "nombre": "Geeks for Geeks",
     "link": "https://www.geeksforgeeks.org/",
-    "descripcion": "Web de tutoriales, cursos, noticias, etc, sobre programación.",
-    "categorias": ["Cursos","Programación"]
+    "descripcion": "Tutoriales y explicaciones sobre programación.",
+    "categorias": ["Programación", "Cursos"]
   },
   {
-    "nombre": "Inprogrammer",
-    "link": "https://www.geeksforgeeks.org/",
-    "descripcion": "Web con ebooks, cursos y proyectos de programación.",
-    "categorias": ["Cursos","Programación"]
-  },
-  {
-    "nombre": "Tutoriales de prorgamación ya",
+    "nombre": "Tutoriales Programación Ya",
     "link": "https://www.tutorialesprogramacionya.com/",
-    "descripcion": "Tutoriales sobre programación.",
-    "categorias": ["Cursos","Programación"]
+    "descripcion": "Tutoriales simples para aprender programación.",
+    "categorias": ["Programación", "Cursos"]
+  },
+  {
+    "nombre": "MateFacil",
+    "link": "https://www.youtube.com/@MateFacilYT",
+    "descripcion": "Explicaciones claras de matemática para nivel universitario.",
+    "categorias": ["Matematica"]
+  },
+  {
+    "nombre": "El Traductor de la Ingeniería",
+    "link": "https://www.youtube.com/channel/UCa6V1UVOXN4wDm7RDQDoa6g",
+    "descripcion": "Explicaciones de conceptos de ingeniería de forma simple.",
+    "categorias": ["Matematica", "Física"]
+  },
+  {
+    "nombre": "Derivando",
+    "link": "https://www.youtube.com/channel/UCH-Z8ya93m7_RD02WsCSZYA",
+    "descripcion": "Contenido de matemática explicado de forma entretenida.",
+    "categorias": ["Matematica"]
+  },
+  {
+    "nombre": "Matemáticas Profe Alex",
+    "link": "https://www.youtube.com/@MatematicasprofeAlex",
+    "descripcion": "Resolución paso a paso de ejercicios de matemática.",
+    "categorias": ["Matematica"]
+  },
+  {
+    "nombre": "Física en segundos",
+    "link": "https://www.youtube.com/@FISICAENSEGUNDOS",
+    "descripcion": "Explicaciones rápidas de conceptos de física.",
+    "categorias": ["Física"]
+  },
+  {
+    "nombre": "Química y algo más",
+    "link": "https://www.youtube.com/@quimicayalgomas2200",
+    "descripcion": "Contenido de química y temas relacionados.",
+    "categorias": ["Física"]
+  },
+  {
+    "nombre": "Clementina",
+    "link": "https://clementina.org.ar/",
+    "descripcion": "Catálogo colaborativo de software libre y herramientas.",
+    "categorias": ["Programación", "Herramientas"]
   }
 ]
-
-
