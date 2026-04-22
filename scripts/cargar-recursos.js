@@ -1,89 +1,99 @@
+const mapeoCategorias = {
+    "I-A": { titulo: "Inteligencia Artificial", pagina: "inteligencia-artificial.html" },
+    "Matematica": { titulo: "Matemática", pagina: "matematica.html" },
+    "Física": { titulo: "Física", pagina: "fisica.html" },
+    "Herramientas": { titulo: "Herramientas", pagina: "herramientas.html" },
+    "Programación": { titulo: "Programación", pagina: "programacion.html" },
+};
+
+// 🔥 CARGAR RECURSOS
 async function cargarRecursos(categoria) {
   try {
-    // Cargar datos de categorías
-    const categoriasResponse = await fetch("../scripts/categorias_pages.json");
+    const categoriasResponse = await fetch("../scripts/categorias_completas.json");
     if (!categoriasResponse.ok) {
-      throw new Error("Failed to fetch categorias.json");
+      throw new Error("Error al cargar categorias");
     }
     const categoriasData = await categoriasResponse.json();
 
-    // Cargar datos de recursos
+    const container = document.getElementById("recursos-container");
+    if (!container) return;
+
+    // 🎨 fondo en sección
+    const categoriaActual = categoriasData.find(cat => cat.nombre === categoria);
+    if (categoriaActual?.fondo) {
+      container.style.backgroundImage = `url(${categoriaActual.fondo})`;
+      container.style.backgroundSize = "cover";
+      container.style.backgroundPosition = "center";
+    }
+
     const response = await fetch("../scripts/recursos.json");
     if (!response.ok) {
-      throw new Error('Failed to fetch recursos.json');
+      throw new Error("Error al cargar recursos");
     }
     const resources = await response.json();
 
-    // Filtrar recursos por categoría
-    const filteredResources = categoria === 'Todos'
+    const filtrados = categoria === 'Todos'
       ? resources
-      : resources.filter((resource) =>
-          resource.categorias.includes(categoria)
-        );
+      : resources.filter(r => r.categorias.includes(categoria));
 
-    // Crear e insertar tarjetas de recursos
-    const container = document.getElementById("recursos-container");
-    container.innerHTML = ''; // Limpiar contenedor antes de agregar nuevos elementos
-    filteredResources.forEach((resource) => {
-      const card = createCard(resource, categoriasData);
+    container.innerHTML = "";
+
+    filtrados.forEach(resource => {
+      const card = crearCard(resource);
       container.appendChild(card);
     });
+
   } catch (error) {
-    console.error('Error:', error);
+    console.error("Error:", error);
   }
 }
 
-function createCard(resource, categoriasData) {
-  const divCard = document.createElement('div');
-  divCard.classList.add('recurso');
-  
-  const { nombre, link, descripcion, categorias } = resource;
+// 🧱 CREAR CARD
+function crearCard(resource) {
+    const divCardCont = document.createElement("div");
+    divCardCont.classList.add("card-container");
 
-  // Generar HTML de categorías
-  let categoriasHTML = categorias.map(categoria => {
-    const categoriaLink = categoriasData[categoria];
-    return categoriaLink
-      ? `<div class="categoria"><a href="${categoriaLink}" ">${categoria}</a></div>`
-      : `<div class="categoria">${categoria}</div>`;
-  }).join("");
+    const divCard = document.createElement("div");
+    divCard.classList.add("card");
 
-  divCard.innerHTML = `
-    <h3 class="recurso-title">${nombre}</h3>
-    <div class="recurso-descripcion">
-      ${descripcion}
-      <div class="recurso-boton">
-        <a href="${link}" target="_blank">Sitio Recurso</a>
-      </div>
-      <div class="categorias">
-        ${categoriasHTML}
-      </div>
-    </div>
-  `;
+    const nombre = resource.recomendado 
+        ? `⭐ ${resource.nombre}` 
+        : resource.nombre;
 
-  return divCard;
+    divCard.innerHTML = `
+        <h3 class="recurso-title">${nombre}</h3>
+        <div class="recurso-descripcion">
+            <p>${resource.descripcion}</p>
+
+            <div class="recurso-boton">
+                <a href="${resource.link}" target="_blank">Abrir Recurso</a>
+            </div>
+
+            <div class="categorias">
+                ${resource.categorias.map(cat => `
+                    <button class="categoria-boton" onclick="irACategoria('${cat}')">
+                        ${mapeoCategorias[cat]?.titulo || cat}
+                    </button>
+                `).join("")}
+            </div>
+        </div>
+    `;
+
+    divCardCont.appendChild(divCard);
+    return divCardCont;
 }
 
-// Función para manejar el clic en "Agregar Archivo"
-function agregarArchivo() {
-  alert('Funcionalidad de agregar archivo en desarrollo.');
-}
+// 🚀 NAVEGACIÓN CORRECTA
+function irACategoria(categoria) {
+    const paginaBase = mapeoCategorias[categoria]?.pagina || `${categoria.toLowerCase()}.html`;
 
-// Manejo del menú desplegable
-document.addEventListener("DOMContentLoaded", function() {
-  const recursosBtn = document.getElementById('recursos-btn');
-  const dropdown = document.getElementById('dropdown');
+    // 👇 SIEMPRE ir bien a /pages/
+    let rutaFinal = paginaBase;
 
-  recursosBtn.addEventListener('click', function(event) {
-    event.stopPropagation();
-    dropdown.classList.toggle('show');
-  });
-
-  document.addEventListener('click', function(event) {
-    if (!dropdown.contains(event.target) && dropdown.classList.contains('show')) {
-      dropdown.classList.remove('show');
+    if (!window.location.pathname.includes("/pages/")) {
+        // desde index
+        rutaFinal = `pages/${paginaBase}`;
     }
-  });
-});
 
-// Llamar a la función para cargar y agregar el contenido adicional
-cargarContenidoExtra();
+    window.location.href = rutaFinal;
+}
