@@ -282,3 +282,21 @@ label input:checked + span{ color: #000000; }
         margin-top: 10px;
     }
 }
+.estrella {
+    margin-right: 5px;
+}
+.pagina-recursos {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.recurso-descripcion
+{
+  background-color: #fff;
+}
+#recursos-container {
+  display: flex;
+  flex-wrap: wrap;
+justify-content:left;
+}
