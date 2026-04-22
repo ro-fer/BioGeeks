@@ -3,8 +3,7 @@
     "nombre": "Symbolab",
     "link": "https://es.symbolab.com/",
     "descripcion": "Calculadora paso a paso ideal para entender cómo resolver ejercicios.",
-    "categorias": ["Matematica", "Herramientas"],
-    "recomendado": true
+    "categorias": ["Matematica", "Herramientas"]
   },
   {
     "nombre": "NotebookLM",
@@ -122,5 +121,98 @@
     "link": "https://clementina.org.ar/",
     "descripcion": "Catálogo colaborativo de software libre y herramientas.",
     "categorias": ["Programación", "Herramientas"]
+  },
+  {
+    "nombre": "ZZZ Code AI",
+    "link": "https://zzzcode.ai/code-converter",
+    "descripcion": "Conversor de código online y gratuito. Podés convertir código de un lenguaje a otro.",
+    "categorias": ["Programación", "Herramientas","I-A"]
+  },
+  {
+    "nombre": "Go ConQr",
+    "link": "https://www.goconqr.com/",
+    "descripcion": "Herramienta para crear mapas mentales, fichas y tests. Útil para organizar temas y estudiar de forma más activa en la facultad.",
+    "categorias": [ "Herramientas"]
+  },
+  {
+  "nombre": "LTSpice",
+  "link": "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html",
+  "descripcion": "Software de simulación de circuitos electrónicos. Permite analizar señales, voltajes y comportamiento de componentes sin necesidad de armar físicamente el circuito.",
+  "categorias": ["Física"],
+  "recomendado": true
+},
+{
+  "nombre": "Wolfram Alpha",
+  "link": "https://www.wolframalpha.com/",
+  "descripcion": "Motor computacional que resuelve problemas de matemática, física y más. Puede mostrar pasos, gráficos y explicaciones detalladas.",
+  "categorias": ["Matematica","Física"]
+},
+{
+  "nombre": "Overleaf",
+  "link": "https://www.overleaf.com/",
+  "descripcion": "Editor online de LaTeX para escribir informes, tesis y trabajos académicos con formato profesional.",
+  "categorias": ["Programación","Herramientas"],
+  "recomendado": true
+},
+{
+    "nombre": "Anki",
+    "link": "https://apps.ankiweb.net/",
+    "descripcion": "Aplicación de tarjetas de estudio con repetición espaciada. Ideal para memorizar conceptos a largo plazo.",
+    "categorias": ["Herramientas"]
+  },
+  {
+    "nombre": "Quizlet",
+    "link": "https://quizlet.com/",
+    "descripcion": "Plataforma para crear fichas de estudio y practicar con tests interactivos.",
+    "categorias": ["Herramientas"]
+  },
+  {
+    "nombre": "Perplexity AI",
+    "link": "https://www.perplexity.ai/",
+    "descripcion": "Buscador con inteligencia artificial que responde preguntas mostrando fuentes confiables.",
+    "categorias": ["I-A"]
+  },
+  {
+    "nombre": "Zotero",
+    "link": "https://www.zotero.org/",
+    "descripcion": "Gestor de referencias bibliográficas para organizar papers y generar citas automáticamente.",
+    "categorias": ["Herramientas"]
+  },
+  {
+    "nombre": "Replit",
+    "link": "https://replit.com/",
+    "descripcion": "Entorno de programación online que permite escribir y ejecutar código desde el navegador.",
+    "categorias": ["Programación"]
+  },
+  {
+    "nombre": "Jupyter Notebook",
+    "link": "https://jupyter.org/",
+    "descripcion": "Herramienta para escribir y ejecutar código en Python, ideal para análisis de datos y proyectos científicos.",
+    "categorias": ["Programación"],
+    "recomendado": true
+  },
+  {
+    "nombre": "Kaggle",
+    "link": "https://www.kaggle.com/",
+    "descripcion": "Plataforma con datasets, cursos y proyectos para practicar análisis de datos y machine learning.",
+    "categorias": ["Programación","Cursos"]
+  },
+  {
+    "nombre": "Falstad Circuit Simulator",
+    "link": "https://falstad.com/circuit/",
+    "descripcion": "Simulador de circuitos online muy visual, ideal para entender electrónica de forma intuitiva.",
+    "categorias": ["Física"]
+  },
+  {
+    "nombre": "PhysioNet",
+    "link": "https://physionet.org/",
+    "descripcion": "Repositorio de datos biomédicos reales (ECG, EEG, etc.) para investigación y aprendizaje.",
+    "categorias": ["Física","Programación"]
+  },
+  {
+    "nombre": "Notion",
+    "link": "https://www.notion.so/",
+    "descripcion": "Herramienta de organización para tomar apuntes, gestionar tareas y planificar el estudio.",
+    "categorias": ["Herramientas"]
   }
 ]
