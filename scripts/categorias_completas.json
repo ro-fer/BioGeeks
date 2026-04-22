@@ -1,15 +1,15 @@
 [
   {
+    "nombre":"Herramientas",
+    "link_index":"./pages/herramientas.html",
+    "link_page":"../pages/herramientas.html",
+    "fondo":"https://static.vecteezy.com/system/resources/previews/000/565/101/non_2x/web-designer-tools-icon-pattern-background-vector.jpg"
+  },
+  {
     "nombre":"Matematica",
     "link_index":"./pages/matematica.html",
     "link_page":"../pages/matematica.html",
     "fondo":"https://i.pinimg.com/564x/4c/55/d2/4c55d28e8547efe29af7b275b9534e9c.jpg"
-  },
-  {
-    "nombre":"Libros",
-    "link_index":"./pages/libros.html",
-    "link_page":"../pages/libros.html",
-    "fondo":"https://i.pinimg.com/564x/be/33/e3/be33e37d67f92f716c5e098cf521aa80.jpg"
   },
   {
     "nombre":"Física",
@@ -41,5 +41,15 @@
     "link_index":"./pages/todos.html",
     "link_page":"../pages/todos.html",
     "fondo":""
+  },
+  {
+    "nombre":"Recomendados",
+    "fondo":"https://img.freepik.com/vector-gratis/fondo-estrellas-plateadas-diseno-plano_23-2149987643.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    "nombre":"Libros",
+    "link_index":"./pages/libros.html",
+    "link_page":"../pages/libros.html",
+    "fondo":"https://i.pinimg.com/564x/be/33/e3/be33e37d67f92f716c5e098cf521aa80.jpg"
   }
 ]
