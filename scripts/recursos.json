@@ -214,5 +214,29 @@
     "link": "https://www.notion.so/",
     "descripcion": "Herramienta de organización para tomar apuntes, gestionar tareas y planificar el estudio.",
     "categorias": ["Herramientas"]
-  }
+  },
+  {
+  "nombre": "Exercism",
+  "link": "https://exercism.org/",
+  "descripcion": "Plataforma gratuita para practicar programación resolviendo ejercicios en distintos lenguajes.",
+  "categorias": ["Programación","Cursos"]
+},
+{
+  "nombre": "Elicit",
+  "link": "https://elicit.com/",
+  "descripcion": "IA orientada a búsqueda y análisis de papers científicos.",
+  "categorias": ["I-A"]
+},
+{
+  "nombre": "SciSpace",
+  "link": "https://typeset.io/",
+  "descripcion": "Permite leer papers científicos y preguntar sobre el contenido usando IA.",
+  "categorias": ["I-A"]
+},
+{
+  "nombre": "Napkin AI",
+  "link": "https://www.napkin.ai/",
+  "descripcion": "Transforma ideas o texto en diagramas visuales automáticamente.",
+  "categorias": ["I-A","Herramientas"]
+}
 ]
